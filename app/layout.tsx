@@ -1,14 +1,14 @@
 import "./globals.css";
-import { Navbar } from "./components/Navbar";
+import { Navbar } from "../components/Navbar";
 import { Inter } from "next/font/google";
 import { Metadata } from "next";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Next.js Project',
-  description: 'A Next.js project with TypeScript and TailwindCSS.',
-  keywords: 'Next.js, Typescript, TailwindCSS',
+  title: "Next.js Project",
+  description: "A Next.js project with TypeScript and TailwindCSS.",
+  keywords: "Next.js, Typescript, TailwindCSS",
 };
 
 export default function RootLayout({
